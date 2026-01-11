@@ -1,0 +1,33 @@
+.block-header {
+	font-family: "Cormorant Infant", sans-serif;
+	font-weight: 700;
+}
+
+.block-header>* {
+	margin-bottom: 27px;
+}
+
+.block-header__label {
+	font-size: 20px;
+	color: #d58417;
+}
+
+.block-header__title {
+	font-size: 64px;
+	color: #000;
+	margin-bottom: 31px;
+}
+
+.block-header__text {
+	font-size: 30px;
+	line-height: 1.4;
+	color: #606060;
+}
+
+.block-header__text p:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.block-header>*:last-child {
+	margin-bottom: 0;
+}
