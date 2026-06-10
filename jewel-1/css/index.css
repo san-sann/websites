@@ -275,6 +275,9 @@ body {
   cursor: pointer;
   transition: opacity 0.2s ease;
 }
+&__title-button {
+		font-size: 18px;
+	}
 .products__tab--active {
   text-decoration: underline;
 }
