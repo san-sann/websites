@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Jewellery</title>
+		<script type="module" crossorigin="" src="./js/index.js?v=1783313379626"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.css?v=1783313379626">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<span class="header__logo">Pretty Stones</span>
+					<div class="header__actions">
+						<a href="#" class="header__action" aria-label="Wishlist">
+							<svg class="header__action-icon" width="22" height="20" viewbox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+								<path d="M11 19C11 19 1 13.5 1 6.5C1 3.46243 3.46243 1 6.5 1C8.53606 1 10.3132 2.07005 11 3.5C11.6868 2.07005 13.4639 1 15.5 1C18.5376 1 21 3.46243 21 6.5C21 13.5 11 19 11 19Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+							</svg>
+							<span class="header__action-badge">1</span>
+						</a>
+						<a href="#" class="header__action" aria-label="Cart">
+							<svg class="header__action-icon" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+								<path d="M5 6V4.5C5 2.567 6.567 1 8.5 1H11.5C13.433 1 15 2.567 15 4.5V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+								<path d="M3.5 6H16.5L17 19H3L3.5 6Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+							</svg>
+							<div class="cart">
+								<span class="cart__quantity header__action-badge" data-fls-addtocart="">1</span>
+							</div>
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<nav class="menu__body" aria-label="Main navigation">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="/" class="menu__link menu__link--active" aria-current="page">Home</a>
+								</li>
+								<li class="menu__item menu__item_sub">
+									<a href="#" class="menu__link">Shop</a>
+									<button type="button" class="menu__arrow" aria-expanded="false" aria-controls="menu-sub-shop" aria-label="Expand «Shop» submenu"></button>
+									<ul class="menu__sub" id="menu-sub-shop">
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">Rings</a>
+										</li>
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">Necklaces</a>
+										</li>
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">Earrings</a>
+										</li>
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">Bracelets</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item menu__item_sub">
+									<a href="#" class="menu__link">Product</a>
+									<button type="button" class="menu__arrow" aria-expanded="false" aria-controls="menu-sub-product" aria-label="Expand «Product» submenu"></button>
+									<ul class="menu__sub" id="menu-sub-product">
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">New Arrivals</a>
+										</li>
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">Best Sellers</a>
+										</li>
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">Sale</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item menu__item_sub">
+									<a href="#" class="menu__link">Blog</a>
+									<button type="button" class="menu__arrow" aria-expanded="false" aria-controls="menu-sub-blog" aria-label="Expand «Blog» submenu"></button>
+									<ul class="menu__sub" id="menu-sub-blog">
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">Latest News</a>
+										</li>
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">Style Guide</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item menu__item_sub">
+									<a href="#" class="menu__link">Pages</a>
+									<button type="button" class="menu__arrow" aria-expanded="false" aria-controls="menu-sub-pages" aria-label="Expand «Pages» submenu"></button>
+									<ul class="menu__sub" id="menu-sub-pages">
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">About Us</a>
+										</li>
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">FAQ</a>
+										</li>
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">Contact Us</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item menu__item_sub">
+									<a href="#" class="menu__link">Contact</a>
+									<button type="button" class="menu__arrow" aria-expanded="false" aria-controls="menu-sub-contact" aria-label="Expand «Contact» submenu"></button>
+									<ul class="menu__sub" id="menu-sub-contact">
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">Email Us</a>
+										</li>
+										<li class="menu__sub-item">
+											<a href="#" class="menu__sub-link">Visit Store</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu" aria-expanded="false" aria-label="Open menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<section data-fls-index="" data-fls-parallax-parent="" class="hero">
+					<div class="hero__container">
+						<div class="hero__headers">
+							<h1 class="hero__title">Jewellery Collection</h1>
+							<a href="#shop" class="button hero__link">Shop Now</a>
+						</div>
+						<div class="hero__img">
+							<picture>
+								<img alt="Woman wearing a pendant necklace and earrings from the Pretty Stones jewellery collection" width="390" height="554" loading="eager" src="./assets/img/hero/center.webp">
+							</picture>
+						</div>
+						<div class="hero__content">
+							<div class="hero__text">
+								<p>
+									There are many variations of passages of Lorem Ipsum available, but the majority
+								</p>
+							</div>
+							<p class="hero__subtitle">
+								Handcrafted
+								<br>
+								&amp; ethically Sources
+							</p>
+						</div>
+					</div>
+					<div class="hero__background" aria-hidden="true">
+						<div class="hero__decor-background">
+							<img data-fls-parallax="" data-fls-parallax-coefficient="35" class="hero__left-decor" src="./assets/img/hero/decor-left.svg" alt="" width="184" height="421" loading="lazy">
+							<img data-fls-parallax="" data-fls-parallax-direction="+" data-fls-parallax-coefficient="35" class="hero__right-decor" src="./assets/img/hero/decor-right.svg" alt="" width="191" height="473" loading="lazy">
+						</div>
+						<div class="hero__image-background">
+							<div data-fls-parallax="" data-fls-parallax-coefficient="45" class="hero__bottom-bg">
+								<picture>
+									<img alt="" width="563" height="858" loading="lazy" src="./assets/img/hero/left-down.webp">
+								</picture>
+							</div>
+							<div data-fls-parallax="" data-fls-parallax-direction="+" data-fls-parallax-coefficient="45" class="hero__right-bg">
+								<picture>
+									<img alt="" width="237" height="337" loading="lazy" src="./assets/img/hero/right-top.webp">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-parallax-parent="" class="custom">
+					<div class="custom__container">
+						<h2 class="visually-hidden">Why Choose Us</h2>
+						<ul class="custom__features">
+							<li data-fls-watcher="" data-fls-watcher-threshold="0.2" data-fls-watcher-once="" class="custom__feature">
+								<div class="custom__feature-icon-wrap">
+									<picture>
+										<img class="custom__feature-icon" alt="" width="74" height="74" loading="lazy" src="./assets/img/custom/icons/value-icon.webp">
+									</picture>
+								</div>
+								<h3 class="custom__feature-title">Amazing Value Every Day</h3>
+								<p class="custom__feature-text">Items prices that fit your budget</p>
+							</li>
+							<li data-fls-watcher="" data-fls-watcher-threshold="0.2" data-fls-watcher-once="" class="custom__feature">
+								<div class="custom__feature-icon-wrap">
+									<picture>
+										<img class="custom__feature-icon" alt="" width="74" height="74" loading="lazy" src="./assets/img/custom/icons/service-icon.webp">
+									</picture>
+								</div>
+								<h3 class="custom__feature-title">Successful Customer Service</h3>
+								<p class="custom__feature-text">Items prices that fit your budget</p>
+							</li>
+							<li data-fls-watcher="" data-fls-watcher-threshold="0.2" data-fls-watcher-once="" class="custom__feature">
+								<div class="custom__feature-icon-wrap">
+									<picture>
+										<img class="custom__feature-icon" alt="" width="74" height="74" loading="lazy" src="./assets/img/custom/icons/shipping-icon.webp">
+									</picture>
+								</div>
+								<h3 class="custom__feature-title">Completely free shipping</h3>
+								<p class="custom__feature-text">We'll handle the shipping.</p>
+							</li>
+						</ul>
+						<div class="custom__about">
+							<div data-fls-watcher="" data-fls-watcher-threshold="0.2" data-fls-watcher-once="" class="custom__about-text">
+								<p class="custom__eyebrow">What We Do</p>
+								<h2 class="custom__about-title">We Develop Create Custom Jewels.</h2>
+								<p class="custom__about-desc">
+									Lorem ipsum dolor sit amet, conse elit, sedid do eiusmod tempor incidi ut labore et dolore magna aliqua. Quis ipsum usendi laboris
+					mollit
+								</p>
+							</div>
+							<div class="custom__photos">
+								<div data-fls-watcher="" data-fls-watcher-threshold="0.2" data-fls-watcher-once="" class="custom__photo custom__photo--small">
+									<picture>
+										<img alt="Woman in a red dress holding a flower, wearing jewelry from the collection" width="177" height="336" loading="lazy" src="./assets/img/custom/photos/jewelry-look-small.webp">
+									</picture>
+								</div>
+								<div data-fls-watcher="" data-fls-watcher-threshold="0.2" data-fls-watcher-once="" class="custom__photo custom__photo--tall">
+									<picture>
+										<img alt="Woman in a beige blazer wearing gold earrings from the jewelry collection" width="307" height="500" loading="lazy" src="./assets/img/custom/photos/jewelry-look-tall.webp">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="custom__background" aria-hidden="true">
+						<div data-fls-parallax="" data-fls-parallax-coefficient="40" class="custom__decor-left"></div>
+						<div data-fls-parallax="" data-fls-parallax-direction="+" data-fls-parallax-coefficient="40" class="custom__decor-right"></div>
+					</div>
+				</section>
+				<section class="products">
+					<div class="products__container">
+						<div class="products__header">
+							<h2 class="products__title">Ours Popular Products</h2>
+							<p class="products__subtitle">Best Seller Product This Week!</p>
+						</div>
+						<ul data-fls-watcher="" data-fls-watcher-threshold="0.2" data-fls-watcher-once="" class="products__grid">
+							<li class="products__item">
+								<a href="#" class="products__link">
+									<div class="products__image-wrap">
+										<picture>
+											<img class="products__image" alt="Embossed hoop earrings in a warm tortoiseshell finish" width="271" height="270" loading="lazy" src="./assets/img/products/photos/product-1.webp">
+										</picture>
+									</div>
+									<p class="products__name">Embossed hoop earrings</p>
+								</a>
+								<p class="products__price">$144.00</p>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									<div class="products__image-wrap">
+										<picture>
+											<img class="products__image" alt="Gold hoop earrings with black and white beaded details" width="271" height="270" loading="lazy" src="./assets/img/products/photos/product-3.webp">
+										</picture>
+									</div>
+									<p class="products__name">Embossed hoop earrings</p>
+								</a>
+								<p class="products__price">$144.00</p>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									<div class="products__image-wrap">
+										<picture>
+											<img class="products__image" alt="Assorted small stud and drop earrings on a neutral backdrop" width="271" height="270" loading="lazy" src="./assets/img/products/photos/product-2.webp">
+										</picture>
+									</div>
+									<p class="products__name">Embossed hoop earrings</p>
+								</a>
+								<p class="products__price">$144.00</p>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									<div class="products__image-wrap">
+										<picture>
+											<img class="products__image" alt="Chunky twisted gold hoop earrings" width="271" height="270" loading="lazy" src="./assets/img/products/photos/product-4.webp">
+										</picture>
+									</div>
+									<p class="products__name">Embossed hoop earrings</p>
+								</a>
+								<p class="products__price">$144.00</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="develop">
+					<div class="develop__container">
+						<div class="develop__row">
+							<h2 data-fls-watcher="" data-fls-watcher-threshold="0.2" data-fls-watcher-once="" class="develop__title">We Develop Create Custom Jewels.</h2>
+							<div data-fls-watcher="" data-fls-watcher-threshold="0.2" data-fls-watcher-once="" class="develop__card">
+								<a href="#" class="develop__link">
+									<div class="develop__image-wrap">
+										<picture>
+											<img class="develop__image" alt="Close-up of clasped hands wearing a gold opal ring" width="334" height="381" loading="lazy" src="./assets/img/develop/photos/card-ring-1.webp">
+										</picture>
+									</div>
+									<p class="develop__name">Embossed hoop earrings</p>
+								</a>
+								<p class="develop__price">$144.00</p>
+							</div>
+							<div data-fls-watcher="" data-fls-watcher-threshold="0.2" data-fls-watcher-once="" class="develop__showcase">
+								<h3 class="develop__showcase-title">
+									#02
+									<br>
+									new jewellery collection
+								</h3>
+								<div class="develop__card">
+									<a href="#" class="develop__link">
+										<div class="develop__image-wrap">
+											<picture>
+												<img class="develop__image" alt="Close-up of a hand wearing stacked gold and black gemstone rings" width="334" height="381" loading="lazy" src="./assets/img/develop/photos/card-ring-2.webp">
+											</picture>
+										</div>
+										<p class="develop__name">Embossed hoop earrings</p>
+									</a>
+									<p class="develop__price">$144.00</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="develop__background" aria-hidden="true">
+						<div class="develop__decor-left"></div>
+						<div class="develop__decor-right"></div>
+					</div>
+				</section>
+				<section class="new-earrings">
+					<div class="new-earrings__container">
+						<div class="new-earrings__row">
+							<a data-fls-watcher="" data-fls-watcher-threshold="0.2" data-fls-watcher-once="" href="#" class="new-earrings__promo">
+								<div class="new-earrings__promo-photo">
+									<picture>
+										<img class="new-earrings__promo-image" alt="Model wearing an oversized tailored blazer" width="435" height="673" loading="lazy" src="./assets/img/new-earrings/photos/promo.webp">
+									</picture>
+									<span class="new-earrings__promo-text">
+										<span class="new-earrings__promo-title">New earrings 30%</span>
+										<span class="new-earrings__promo-price">$144.00</span>
+									</span>
+								</div>
+							</a>
+							<div data-fls-watcher="" data-fls-watcher-threshold="0.2" data-fls-watcher-once="" class="new-earrings__item">
+								<a href="#" class="new-earrings__link">
+									<div class="new-earrings__image-wrap">
+										<picture>
+											<img class="new-earrings__image" alt="Embossed arch-shaped clay earrings in cream and mustard yellow on a stone surface" width="434" height="512" loading="lazy" src="./assets/img/new-earrings/photos/embossed-hoop.webp">
+										</picture>
+									</div>
+									<p class="new-earrings__name">Embossed hoop earrings</p>
+								</a>
+								<p class="new-earrings__price">$144.00</p>
+							</div>
+							<div data-fls-watcher="" data-fls-watcher-threshold="0.2" data-fls-watcher-once="" class="new-earrings__item">
+								<a href="#" class="new-earrings__link">
+									<div class="new-earrings__image-wrap">
+										<picture>
+											<img class="new-earrings__image" alt="Bold burgundy fan-shaped statement earrings on a light fabric" width="434" height="512" loading="lazy" src="./assets/img/new-earrings/photos/statement.webp">
+										</picture>
+									</div>
+									<p class="new-earrings__name">Embossed hoop earrings</p>
+								</a>
+								<p class="new-earrings__price">$144.00</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container footer__top">
+					<address class="footer__contact">
+						<p class="footer__phone">
+							<a href="tel:+48070567889">(+480) 70 567-8899</a>
+						</p>
+						<p class="footer__email">
+							<a href="mailto:support@prettystonese.com">
+								support@p
+								<span class="footer__email-accent">retty stones</span>
+								e.com
+							</a>
+						</p>
+						<p class="footer__location">jewelry – 85 lake view drive marshfield, new york, 54449</p>
+					</address>
+					<ul class="footer__socials">
+						<li>
+							<a href="#" class="footer__social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+								<svg class="footer__social-icon" width="28" height="28" viewbox="0 0 27.7066 27.7066" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<circle cx="13.8533" cy="13.8533" r="13.8533" fill="white"></circle>
+									<path d="M16.8995 14.9437L17.2606 12.5885H15.002V11.0624C14.9864 10.8866 15.0104 10.7096 15.0724 10.5444C15.1344 10.3792 15.2327 10.2301 15.3601 10.108C15.4875 9.98589 15.6406 9.89397 15.8083 9.83904C15.976 9.7841 16.1538 9.76754 16.3288 9.79058H17.3556V7.78474C16.7526 7.68802 16.1434 7.63554 15.5327 7.62773C15.1125 7.59567 14.6905 7.65641 14.2964 7.80565C13.9023 7.9549 13.5459 8.18899 13.2524 8.49134C12.9589 8.79369 12.7355 9.15689 12.598 9.55521C12.4605 9.95354 12.4123 10.3772 12.4568 10.7962V12.5901H10.3898V14.9453H12.4576V20.6355H15.002V14.9437H16.8995Z" fill="currentColor"></path>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="footer__social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+								<svg class="footer__social-icon" width="28" height="28" viewbox="0 0 27.7066 27.7066" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<g transform="translate(-45.6466 0)">
+										<circle cx="59.4999" cy="13.8533" r="13.8533" fill="white"></circle>
+										<path d="M65.0998 10.6394C64.692 10.8199 64.2595 10.9384 63.8167 10.991C64.2846 10.7118 64.6348 10.2717 64.8017 9.75296C64.3635 10.0138 63.8838 10.1975 63.3836 10.2963C63.0473 9.9376 62.602 9.6999 62.1168 9.62011C61.6316 9.54032 61.1336 9.6229 60.7001 9.85503C60.2667 10.0872 59.9219 10.4559 59.7194 10.9039C59.5169 11.352 59.4679 11.8544 59.5801 12.3331C58.6921 12.2885 57.8234 12.0577 57.0304 11.6555C56.2374 11.2534 55.5378 10.689 54.9771 9.99902C54.6915 10.4908 54.6039 11.0729 54.7323 11.6269C54.8606 12.1809 55.1952 12.6652 55.6679 12.9813C55.3141 12.9697 54.9682 12.8739 54.6588 12.7018V12.7298C54.6584 13.2449 54.8359 13.7444 55.1614 14.1437C55.4868 14.543 55.9403 14.8176 56.4449 14.921C56.1158 15.0102 55.7708 15.0235 55.4358 14.9598C55.5781 15.404 55.8558 15.7924 56.23 16.0708C56.6042 16.3492 57.056 16.5036 57.5223 16.5123C57.0591 16.8761 56.5287 17.1452 55.9614 17.3039C55.3942 17.4627 54.8012 17.5081 54.2164 17.4375C55.2373 18.094 56.4258 18.4424 57.6395 18.4412C58.4761 18.447 59.3054 18.2864 60.0794 17.9688C60.8533 17.6512 61.5564 17.1829 62.1477 16.5911C62.739 15.9994 63.2068 15.296 63.5238 14.5218C63.8409 13.7476 64.0008 12.9182 63.9944 12.0816C63.9944 11.9854 63.9944 11.8883 63.9875 11.7929C64.4237 11.4776 64.8003 11.0873 65.0998 10.6402V10.6394Z" fill="currentColor"></path>
+									</g>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+								<svg class="footer__social-icon" width="28" height="28" viewbox="0 0 27.7066 27.7066" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+									<g transform="translate(-91.2937 0)">
+										<circle cx="105.147" cy="13.8533" r="13.8533" fill="white"></circle>
+										<path d="M105.322 12.4258C105.005 12.4258 104.695 12.5197 104.431 12.6958C104.168 12.8718 103.963 13.122 103.841 13.4148C103.72 13.7075 103.688 14.0297 103.75 14.3404C103.812 14.6512 103.965 14.9367 104.189 15.1608C104.413 15.3848 104.698 15.5374 105.009 15.5992C105.32 15.661 105.642 15.6293 105.935 15.5081C106.227 15.3868 106.478 15.1814 106.654 14.918C106.83 14.6545 106.924 14.3448 106.924 14.0279C106.924 13.8175 106.882 13.6092 106.802 13.4148C106.721 13.2204 106.603 13.0438 106.454 12.895C106.306 12.7463 106.129 12.6282 105.935 12.5477C105.74 12.4672 105.532 12.4258 105.322 12.4258ZM105.322 11.3577C105.85 11.3577 106.366 11.5143 106.805 11.8077C107.244 12.1011 107.586 12.5181 107.788 13.0061C107.991 13.494 108.043 14.0309 107.94 14.5488C107.837 15.0668 107.583 15.5426 107.21 15.916C106.836 16.2894 106.36 16.5437 105.842 16.6468C105.324 16.7498 104.788 16.6969 104.3 16.4948C103.812 16.2927 103.395 15.9505 103.101 15.5114C102.808 15.0723 102.651 14.556 102.651 14.0279C102.651 13.6772 102.72 13.33 102.855 13.0061C102.989 12.6821 103.185 12.3877 103.433 12.1398C103.934 11.639 104.613 11.3577 105.322 11.3577ZM108.793 11.2242C108.793 11.3562 108.754 11.4853 108.68 11.5951C108.607 11.7048 108.503 11.7904 108.381 11.8409C108.259 11.8914 108.124 11.9047 107.995 11.8789C107.865 11.8531 107.747 11.7896 107.653 11.6962C107.56 11.6029 107.496 11.4839 107.47 11.3544C107.445 11.2249 107.458 11.0907 107.508 10.9687C107.559 10.8467 107.645 10.7425 107.754 10.6691C107.864 10.5958 107.993 10.5566 108.125 10.5566C108.213 10.5566 108.3 10.5739 108.381 10.6074C108.462 10.641 108.535 10.6902 108.597 10.7522C108.659 10.8141 108.708 10.8877 108.742 10.9687C108.776 11.0497 108.793 11.1365 108.793 11.2242ZM105.322 9.75558C104.002 9.75558 103.785 9.75558 103.17 9.78663C102.842 9.79096 102.517 9.8508 102.21 9.9636C101.993 10.0473 101.797 10.1753 101.633 10.3393C101.469 10.5033 101.341 10.6997 101.257 10.916C101.144 11.2238 101.084 11.5484 101.08 11.8762C101.052 12.4661 101.049 12.6718 101.049 14.0279C101.049 15.3475 101.049 15.5648 101.08 16.1796C101.085 16.507 101.145 16.8314 101.257 17.139C101.341 17.3554 101.468 17.5519 101.632 17.716C101.796 17.88 101.993 18.0079 102.209 18.0914C102.517 18.2045 102.842 18.2646 103.17 18.2692C103.76 18.2971 103.965 18.3002 105.322 18.3002C106.641 18.3002 106.858 18.3002 107.473 18.2692C107.801 18.2644 108.125 18.2046 108.433 18.0922C108.65 18.0117 108.847 17.8836 109.009 17.7173C109.176 17.5557 109.305 17.3586 109.385 17.1405C109.498 16.8324 109.557 16.5076 109.562 16.1796C109.59 15.5896 109.593 15.3839 109.593 14.0279C109.593 12.7083 109.593 12.491 109.562 11.8762C109.558 11.5485 109.498 11.2238 109.385 10.916C109.305 10.6981 109.176 10.501 109.009 10.3393C108.848 10.1722 108.651 10.0437 108.433 9.9636C108.125 9.85077 107.8 9.79093 107.472 9.78663C106.883 9.75868 106.678 9.75558 105.322 9.75558ZM105.322 8.6875C106.772 8.6875 106.952 8.69293 107.523 8.71932C107.966 8.72852 108.404 8.8125 108.819 8.96771C109.176 9.10123 109.499 9.31134 109.765 9.58326C110.037 9.85029 110.248 10.1735 110.382 10.5302C110.537 10.9453 110.621 11.3836 110.631 11.8265C110.656 12.3955 110.663 12.5771 110.663 14.0279C110.663 15.4786 110.657 15.658 110.631 16.2292C110.621 16.6722 110.537 17.1104 110.382 17.5255C110.245 17.8808 110.036 18.2035 109.766 18.4727C109.497 18.742 109.174 18.9519 108.819 19.0888C108.404 19.2439 107.966 19.3278 107.523 19.3372C106.954 19.3621 106.772 19.3691 105.322 19.3691C103.871 19.3691 103.691 19.3636 103.12 19.3372C102.677 19.3278 102.239 19.2438 101.824 19.0888C101.469 18.9518 101.147 18.7421 100.878 18.4732C100.609 18.2042 100.399 17.8819 100.262 17.5271C100.107 17.1121 100.023 16.6738 100.014 16.2308C99.9881 15.6595 99.9811 15.4786 99.9811 14.0279C99.9811 12.5771 99.9866 12.3978 100.013 11.8265C100.022 11.3835 100.106 10.9453 100.261 10.5302C100.398 10.1752 100.608 9.85272 100.877 9.58361C101.146 9.3145 101.469 9.1047 101.824 8.96771C102.239 8.81246 102.677 8.72848 103.12 8.71932C103.689 8.69448 103.871 8.6875 105.322 8.6875Z" fill="currentColor"></path>
+									</g>
+								</svg>
+							</a>
+						</li>
+					</ul>
+					<ul class="footer__links">
+						<li>
+							<a href="#about" class="footer__link">About</a>
+						</li>
+						<li>
+							<a href="#store-location" class="footer__link">Store location</a>
+						</li>
+						<li>
+							<a href="#contact" class="footer__link">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__divider" aria-hidden="true"></div>
+				<div class="footer__container footer__bottom">
+					<p class="footer__copyright">Copyright © 2022 pretty stonese All Rights Reserved.</p>
+					<picture>
+						<img class="footer__payments" alt="Accepted payment methods: Mastercard, PayPal, American Express, Bitcoin, Western Union, Visa" width="268" height="20" loading="lazy" src="./assets/img/footer/payments/payment-icons.webp">
+					</picture>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
